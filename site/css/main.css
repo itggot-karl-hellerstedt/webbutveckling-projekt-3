@@ -1,0 +1,443 @@
+body{
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+}
+
+.wrapper{
+    height: 300vh;
+    width: 100% inherit;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 8fr 2fr 3fr 3fr 3fr 6fr 9fr;
+    grid-template-areas: 
+    "TOP TOP"
+    "SUPERMARKET SUPERMARKET"
+    "SALE SALE"
+    "M-AIR CELEB-AIR"
+    "CITY-AIR ÖBO-AIR"
+    "FACT1 FACT1"
+    "massiv massiv"
+    "footer footer";
+}
+ 
+.TOP{
+    height: 70px;
+    width: 100%;
+    grid-area: TOP;
+    padding: 5px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
+    background-color: lightblue; 
+    position: fixed;
+    top: 0;  
+}
+
+a{
+    text-decoration: none;
+    color: black; 
+}
+
+.MENU{
+    position: fixed;
+    width: 230px;
+    height: 100vh;
+    background-color: royalblue;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: grid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "TITLE TITLE"
+    "PRODUCTS NEWEST"
+    "GAH FOOTWEAR"
+    "ror MUSIC"
+    "POPULAR TECH"
+    "FOOD MAGAZINE"
+    "EDITORIAL WORLDWIDE";
+}
+
+.TITLE-MENU{
+    grid-area: TITLE;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PRODUCTS-MENU{
+    grid-area: PRODUCTS;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.GAH-MENU{
+    grid-area: GAH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ror-MENU{
+    grid-area: ror;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NEWEST-MENU{
+    grid-area: NEWEST;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FOOTWEAR-MENU{
+    grid-area: FOOTWEAR;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MUSIC-MENU{
+    grid-area: MUSIC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.POPULAR-MENU{
+    grid-area: POPULAR;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FOOD-MENU{
+    grid-area: FOOD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EDITORIAL-MENU{
+    grid-area: EDITORIAL;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.TECH-MENU{
+    grid-area: TECH;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.MAGAZINE-MENU{
+    grid-area: MAGAZINE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.WORLDWIDE-MENU{
+    grid-area: WORLDWIDE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.erk{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 3px; 
+}
+
+.menununa{
+    display: none;
+}
+
+.TOP i{
+    width: 50px;
+    font-size: 40px;
+}
+
+.SUPERMARKET{
+    grid-area: SUPERMARKET; 
+}
+
+.heavenly_air_img{
+    width: 375px;
+    height: 556px;
+    background-image: url(../img/prayingmanwithflask.jpg); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    ;
+    background-color: lightskyblue;
+}
+.SALE{
+    grid-area: SALE;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: SALE;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.M-AIR{
+    grid-area: M-AIR;
+    background-image: url(../img/M_Air_Mobile.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border: 5px lightskyblue solid; 
+}
+
+.CELEB-AIR{
+    grid-area: CELEB-AIR;
+    background-image: url(../img/Tömmy.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: aliceblue;
+    border: 5px lightskyblue solid; 
+}
+
+.CITY-AIR{
+    grid-area: CITY-AIR;
+    background-image: url(../img/Beijing_smog_Mobile.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border: 5px lightskyblue solid; 
+}
+
+.ÖBO-AIR{
+    grid-area: ÖBO-AIR;
+    background-image: url(../img/ÖBO-Air-Mobile.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: aliceblue;
+    border: 5px lightskyblue solid; 
+}
+
+.FACT1{
+    grid-area: FACT1;
+    background-image: url(../img/CloudFacts1_Mobile.jpg);
+    border: 5px lightskyblue solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-areas:
+    "DYK DYK"
+    "SF SF";
+}
+
+.TEXT_DIDYOUKNOW{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-area: DYK;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+
+.STRAIGHTFACT{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    grid-area: SF;
+    display: flex;
+    /* justify-content: center; */
+    padding-left: 70px;
+}
+
+.köpluft1{
+    grid-area: köpluft1;
+    /* background-image: url(../img/mcböttle-normal_Mobile.png); */
+    /* background-color: red; */
+    /* border-right: 5px lightskyblue solid;
+    border-top: 5px lightskyblue solid;
+    border-left: 5px lightskyblue solid; */
+}
+
+.köpluft2{
+    grid-area: köpluft2;
+    /* background-image: url(../img/mcböttle-orangeblue_Mobile.jpg); */
+    /* background-color: grey; */
+}
+
+.redolv{
+    background-color: black;
+    padding: 2px;
+}
+
+.barluft1{
+    grid-area: barluft1;
+    display: flex;
+    padding-top: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    /* background-color: red; */
+    /* border-right: 5px lightskyblue solid;
+    border-bottom: 5px lightskyblue solid;
+    border-left: 5px lightskyblue solid; */
+}
+
+.resolv{
+    background-color: black;
+    padding: 2px;
+}
+
+.barluft2{
+    grid-area: barluft2;
+    display: flex;
+    padding-top: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+.köpluft3{
+    grid-area: köpluft3;
+    /* background-image: url(../img/mcböttle-orangeyellow_Mobile.jpg) */
+    /* background-color: wheat; */
+}
+
+.köpluft4{
+    grid-area: köpluft4;
+    /* background-color: yellowgreen; */
+}
+
+.redolf{
+    background-color: black;
+    padding: 2px;
+}
+
+.barluft3{
+    grid-area: barluft3;
+    display: flex;
+    padding-top: 10px;
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+.regolf{
+    background-color: black;
+    padding: 2px;
+}
+
+.barluft4{
+    grid-area: barluft4;
+    display: flex;
+    padding-top: 10px; 
+    /* align-items: center; */
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: lightcyan;
+    border: 5px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "VISIT"
+    "OPENING";
+    font-size: 12px;
+}
+
+.VISIT{
+    grid-area: VISIT;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.VISIT_SHOP{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.VISIT ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.OPENING{
+    grid-area: OPENING;
+    height: 100%;
+    width: 100%;
+}
+
+.HOURS{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.OPENING ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.massiv{
+    grid-area: massiv;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-areas:
+    "köpluft1 köpluft2"
+    "barluft1 barluft2"
+    "köpluft3 köpluft4"
+    "barluft3 barluft4";
+    background-image: url(../img/fin_sky.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@keyframes SALE{
+    
+    0%{
+        color: black;
+    }
+    100%{
+        color: lightskyblue;
+    }
+}

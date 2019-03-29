@@ -481,6 +481,16 @@ header{
     background-color: lightskyblue;  
 }
 
+.öl{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.öl:hover{
+    color: hotpink;
+}
+
 .text-shopping{
     display: flex;
     justify-content: center;
@@ -566,3 +576,691 @@ footer{
     margin-left: 20px;
 }
 
+.footer-text2{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+/*-------------------------MOBILE-------------------------*/
+/*----------------- NORMAL.HTML CSS CODE -----------------*/
+
+.wrapper-normal{
+    width: 100vw;
+    height: 160vh;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 70px 350px 300px 1fr 79.4117647vh;
+    grid-template-areas: 
+    "TOP-normal"
+    "AIR-IMAGE"
+    "content"
+    "filler"
+    "footer-normal";
+}
+
+.TOP-normal{
+    grid-area: TOP-normal;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.normal-home{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.normal-home:hover{
+    color: hotpink;
+}
+
+.TITLE-normal{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.AIR-IMAGE{
+    grid-area: AIR-IMAGE;
+    background-image: url(../img/AIR-IMG.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-area: content;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-normal{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.kostnad-normal{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.artikelnummer{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.boxes-normal{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px; 
+}
+
+.size-normal{
+    width: 80%;
+    height: 40%;
+    background-color: lightskyblue;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buy-normal{
+    width: 80%;
+    height: 40%;
+    background-color: greenyellow;
+    margin-left: 35px;
+    margin-top: -55px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler{
+    grid-area: filler;
+}
+
+.footer-normal{
+    grid-area: footer-normal;
+    background-color: lightcyan;
+    border: 5px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "VISIT"
+    "OPENING";
+    font-size: 12px;
+}
+
+.VISIT-normal{
+    grid-area: VISIT;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.VISIT_SHOP-normal{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.VISIT-normal ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.OPENING-normal{
+    grid-area: OPENING;
+    height: 100%;
+    width: 100%;
+}
+
+.HOURS-normal{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.OPENING-normal ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------MOBILE-------------------------*/
+/*----------------- ORANGEYELLOW.HTML CSS CODE -----------------*/
+
+.wrapper-orangeyellow{
+    width: 100vw;
+    height: 160vh;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 70px 350px 300px 1fr 79.4117647vh;
+    grid-template-areas: 
+    "TOP-orangeyellow"
+    "AIR-IMAGE"
+    "content"
+    "filler"
+    "footer-orangeyellow";
+}
+
+.TOP-orangeyellow{
+    grid-area: TOP-orangeyellow;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orangeyellow-home{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.orangeyellow-home:hover{
+    color: hotpink;
+}
+
+.TITLE-orangeyellow{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.AIR-IMAGE{
+    grid-area: AIR-IMAGE;
+    background-image: url(../img/AIR-IMG.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-area: content;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-orangeyellow{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.kostnad-orangeyellow{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.artikelnummer{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.boxes-orangeyellow{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px; 
+}
+
+.size-orangeyellow{
+    width: 80%;
+    height: 40%;
+    background-color: lightskyblue;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buy-orangeyellow{
+    width: 80%;
+    height: 40%;
+    background-color: greenyellow;
+    margin-left: 35px;
+    margin-top: -55px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler{
+    grid-area: filler;
+}
+
+.footer-orangeyellow{
+    grid-area: footer-orangeyellow;
+    background-color: lightcyan;
+    border: 5px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "VISIT"
+    "OPENING";
+    font-size: 12px;
+}
+
+.VISIT-orangeyellow{
+    grid-area: VISIT;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.VISIT_SHOP-orangeyellow{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.VISIT-orangeyellow ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.OPENING-orangeyellow{
+    grid-area: OPENING;
+    height: 100%;
+    width: 100%;
+}
+
+.HOURS-orangeyellow{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.OPENING-orangeyellow ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------MOBILE-------------------------*/
+/*----------------- BLUEWAV.HTML CSS CODE -----------------*/
+
+.wrapper-bluewav{
+    width: 100vw;
+    height: 160vh;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 70px 350px 300px 1fr 79.4117647vh;
+    grid-template-areas: 
+    "TOP-bluewav"
+    "AIR-IMAGE"
+    "content"
+    "filler"
+    "footer-bluewav";
+}
+
+.TOP-bluewav{
+    grid-area: TOP-bluewav;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bluewav-home{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.bluewav-home:hover{
+    color: hotpink;
+}
+
+.TITLE-bluewav{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.AIR-IMAGE{
+    grid-area: AIR-IMAGE;
+    background-image: url(../img/AIR-IMG.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-area: content;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-bluewav{
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.kostnad-bluewav{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.artikelnummer{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.boxes-bluewav{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px; 
+}
+
+.size-bluewav{
+    width: 80%;
+    height: 40%;
+    background-color: lightskyblue;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buy-bluewav{
+    width: 80%;
+    height: 40%;
+    background-color: greenyellow;
+    margin-left: 35px;
+    margin-top: -55px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler{
+    grid-area: filler;
+}
+
+.footer-bluewav{
+    grid-area: footer-bluewav;
+    background-color: lightcyan;
+    border: 5px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "VISIT"
+    "OPENING";
+    font-size: 12px;
+}
+
+.VISIT-bluewav{
+    grid-area: VISIT;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.VISIT_SHOP-bluewav{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.VISIT-bluewav ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.OPENING-bluewav{
+    grid-area: OPENING;
+    height: 100%;
+    width: 100%;
+}
+
+.HOURS-bluewav{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.OPENING-bluewav ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+/*-------------------------MOBILE-------------------------*/
+/*----------------- ORANGEBLUE.HTML CSS CODE -----------------*/
+
+.wrapper-orangeblue{
+    width: 100vw;
+    height: 160vh;
+    background-color: green;
+    display: grid;
+    grid-template-rows: 70px 350px 300px 1fr 79.4117647vh;
+    grid-template-areas: 
+    "TOP-orangeblue"
+    "AIR-IMAGE"
+    "content"
+    "filler"
+    "footer-orangeblue";
+}
+
+.TOP-orangeblue{
+    grid-area: TOP-orangeblue;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orangeblue-home{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.orangeblue-home:hover{
+    color: hotpink;
+}
+
+.TITLE-orangeblue{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.AIR-IMAGE{
+    grid-area: AIR-IMAGE;
+    background-image: url(../img/AIR-IMG.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    grid-area: content;
+    background-color: lightskyblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.name-orangeblue{
+    width: 350px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.kostnad-orangeblue{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.artikelnummer{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+.boxes-orangeblue{
+    width: 100%;
+    height: 100px;
+    margin-top: 80px; 
+}
+
+.size-orangeblue{
+    width: 80%;
+    height: 40%;
+    background-color: lightskyblue;
+    margin-left: 35px;
+    margin-bottom: 60px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.buy-orangeblue{
+    width: 80%;
+    height: 40%;
+    background-color: greenyellow;
+    margin-left: 35px;
+    margin-top: -55px;
+    border: 2px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.filler{
+    grid-area: filler;
+}
+
+.footer-orangeblue{
+    grid-area: footer-orangeblue;
+    background-color: lightcyan;
+    border: 5px lightskyblue solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "VISIT"
+    "OPENING";
+    font-size: 12px;
+}
+
+.VISIT-orangeblue{
+    grid-area: VISIT;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+}
+
+.VISIT_SHOP-orangeblue{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.VISIT-orangeblue ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.OPENING-orangeblue{
+    grid-area: OPENING;
+    height: 100%;
+    width: 100%;
+}
+
+.HOURS-orangeblue{
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.OPENING-orangeblue ul{
+    margin: 4px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}

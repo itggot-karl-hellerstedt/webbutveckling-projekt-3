@@ -42,6 +42,14 @@ a{
     color: black; 
 }
 
+.shopping_cart:hover{
+    color: hotpink;
+}
+
+.menU:hover{
+    color: hotpink;
+}
+
 .MENU{
     position: fixed;
     width: 230px;
@@ -62,6 +70,7 @@ a{
     "POPULAR TECH"
     "FOOD MAGAZINE"
     "EDITORIAL WORLDWIDE";
+    box-shadow: 50px 40px 124px -22px rgba(0,0,0,0.8)
 }
 
 .TITLE-MENU{
@@ -70,6 +79,8 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration-line: underline;
+    margin-top: 60px;
 }
 
 .PRODUCTS-MENU{
@@ -441,3 +452,117 @@ a{
         color: lightskyblue;
     }
 }
+
+/*---------------------------- MOBILE --------------------------- */
+/*----------------- SHOPPING_CART.HTML CSS CODE ------------------*/
+
+.wrapper_shopping{
+    height: 100vh;
+    width: 100vw;
+    background-color: royalblue;
+    display: grid;
+    grid-template-columns: 1fr 60vw 1fr;
+    grid-template-rows: 70px 1fr 4fr 2fr;
+    grid-template-areas:
+    "header header header"
+    "true true true"
+    "AIR-ITEM AIR-ITEM AIR-ITEM"
+    "footer footer footer";
+}
+
+header{
+    /* width: 100vw;
+    height: 70px; */
+    grid-area: header;
+    display: flex;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-color: lightskyblue;  
+}
+
+.text-shopping{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.true{
+    grid-area: true;
+}
+
+.fake{
+    grid-area: fake;
+}
+.AIR-ITEM{
+    grid-area: AIR-ITEM;
+    overflow: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.AIR-ITEM1{
+    height: 200px;
+    width: 60vw;
+    background-color: white;
+    margin-left: 20vw;
+    border: 5px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.AIR-ITEM1-text-air{
+    height: 30px;
+    width: 100%;
+    margin-left: 20vw;
+}
+
+.AIR-ITEM2-text-air{
+    height: 30px;
+    width: 100%;
+    margin-left: 20vw;
+}
+
+.AIR-ITEM3-text-air{
+    height: 30px;
+    width: 100%;
+    margin-left: 20vw;
+}
+
+.AIR-ITEM2{
+    height: 200px;
+    width: 60vw;
+    background-color: white;
+    margin-left: 20vw;
+    margin-top: 50px;
+    border: 5px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.AIR-ITEM3{
+    height: 200px;
+    width: 60vw;
+    background-color: white;
+    margin-left: 20vw;
+    margin-top: 50px;
+    border: 5px black solid;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+footer{
+    grid-area: footer;
+    background-color: lightskyblue;
+    border: 5px black solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footer-text{
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
